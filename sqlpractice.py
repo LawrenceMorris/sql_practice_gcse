@@ -1,3 +1,5 @@
+#Author: Lawrence Morris   October 2025  Released to public domain when appropriate
+
 import pandas as pd
 import duckdb
 
@@ -14,11 +16,10 @@ def sqlCommandLine (someDataFrame):
             print (result)
         except:
             print("That command is not recognized.")
+        return 'y'
 
 
-
-
-
+#main program below
 
 
 #Set up sample database
@@ -36,12 +37,14 @@ print ()
 
 keepGoing = 'y'
 while keepGoing != "n":
-    sqlCommandLine(inventory)
+    keepGoing = sqlCommandLine(inventory)
     print ()
 
 
 # good bye
 print ("Thanks for using the bookstore database!")
+print ("You can now close your window.")
+input()
 
 
 
