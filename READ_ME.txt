@@ -3,7 +3,7 @@ Your computer needs to have python installed to run this program (which it proba
 
 This program does require you to install two python libraries (if  you haven't already) : duckdb and pandas
 
-To do install these libraries:
+To install these libraries:
 1. Go to Command Prompt
 2. type: pip install pandas
 3. after that installs, type: pip install duckdb
