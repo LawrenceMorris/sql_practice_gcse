@@ -2,8 +2,10 @@
 
 #version without dependencies
 
-import pandas as pd
-import duckdb
+import sqlite3
+con = sqlite3.connect("tutorial.db")
+cur = con.cursor()
+cur.execute("[SQL goes here]")
 
 # sql command input
 
