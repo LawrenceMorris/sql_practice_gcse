@@ -1,5 +1,7 @@
 #Author: Lawrence Morris   October 2025  Released to public domain when appropriate
 
+#version without dependencies
+
 import pandas as pd
 import duckdb
 
