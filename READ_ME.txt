@@ -1,6 +1,7 @@
 sql_Practice_v2.py
 
-This python program enables GCSE students to practice SQL commands on a sample database.The program is designed to complement the CAIE iGCSE syllabus, but will be useful for a range of other syllabi also.
+This python program enables GCSE students to practice SQL commands on a sample database.
+The program is designed to complement the CAIE iGCSE syllabus, but will be useful for a range of other syllabi also.
 
 Your computer needs to have python installed to run this program (which it probably does, if you have reached this point in the syllabus).
 

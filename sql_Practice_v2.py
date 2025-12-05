@@ -50,6 +50,7 @@ def main ():
 
     records = [a, b, c, d, e, f, g]
 
+    #insert initial records into database
 
     try:
         for each in records:
