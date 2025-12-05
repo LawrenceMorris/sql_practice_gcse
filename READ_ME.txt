@@ -1,13 +1,14 @@
 sql_Practice_v2.py
 
-This python program enables GCSE students to practice SQL commands on a sample database.The program is designed to complement the CAIE iGCSE syllabus.
+This python program enables GCSE students to practice SQL commands on a sample database.The program is designed to complement the CAIE iGCSE syllabus, but will be useful for a range of other syllabi also.
+
 Your computer needs to have python installed to run this program (which it probably does, if you have reached this point in the syllabus).
 
-You should place the file sql_Practice_v2.py in a folder on your computer (do not leave it on downloads).
+You should place the file sql_Practice_v2.py in a folder on your computer (do not leave it in the "downloads" folder because permissions may cause problems).
 
-The first time you run the program, it will first create a separate database file. It will then allow you to run SQL commands on that database.
+The first time you run the program, it will create a separate database file (bookstore.db). It will then allow you to run SQL commands on that database.
 
-The very small database has the following structure:
+The very small database has the following structure when first created:
 
 ID     Title                              Last_Name       In_Stock    Cost
 1      Narnia and the Wardrobe            Lewis           20          2.50
@@ -22,4 +23,8 @@ ID     Title                              Last_Name       In_Stock    Cost
 This project was designed to help my own children. Updates / patches are unlikely!
 
 Author: Lawrence Morris
-Date: November 2025
+Date: December 2025
+License: MIT
+
+Acknowledgments: Graeme Pietersz for a codereview on GitHub
+
